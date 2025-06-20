@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@font-face {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url("../assets/fonts/Open_Sans/OpenSans-VariableFont_wdth\,wght.ttf")
+		format("woff2");
+}
+
+@font-face {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: url("../assets/fonts/Poppins/Poppins-Regular.ttf") format("woff2");
+}
+
+@font-face {
+	font-family: "Poppins";
+	font-style: normal;
+	font-weight: 600;
+	font-display: swap;
+	src: url("../assets/fonts/Poppins/Poppins-SemiBold.ttf") format("woff2");
+}
+
+@theme {
+	--color-Violet: hsl(257, 40%, 49%);
+	--color-Soft-Magenta: hsl(300, 69%, 71%);
+	--font-Open-Sans: "Open Sans";
+	--font-Poppins: "Poppins";
+}
